@@ -82,8 +82,8 @@ export default function LandingPage() {
     },
     {
       icon: Globe,
-      title: "Global Reach",
-      description: "Connect with buyers and sellers from around the world."
+      title: "Local Exclusivity",
+      description: "Connect with buyers and sellers within the Philippines."
     },
     {
       icon: Zap,
