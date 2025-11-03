@@ -137,7 +137,7 @@ const Navbar = () => {
               </button> */}
               
               {/* User Menu */}
-              <div className="relative">
+              {/* <div className="relative">
                 <button
                   onClick={handleUserMenuClick}
                   className="flex items-center space-x-2 px-3 py-2 text-sm font-medium text-gray-600 hover:text-black hover:bg-gray-100 rounded-lg transition-colors duration-200"
@@ -166,7 +166,7 @@ const Navbar = () => {
                     <hr className="my-1" />
                   </div>
                 )}
-              </div>
+              </div> */}
               <Link
                 href="/register"
                 className="px-4 xl:px-6 py-2 text-sm xl:text-base font-medium bg-black text-white rounded-lg hover:bg-gray-800 transition-colors duration-200"
@@ -228,14 +228,14 @@ const Navbar = () => {
                   Toggle Theme
                 </button> */}
                 
-                <Link
+                {/* <Link
                   href="/login"
                   onClick={handleLinkClick}
                   className="flex items-center w-full px-4 py-3 text-base font-medium text-gray-600 hover:text-black hover:bg-gray-50 rounded-lg transition-colors duration-200"
                 >
                   <User className="h-5 w-5 mr-3" />
                   Sign In
-                </Link>
+                </Link> */}
 
                 <Link
                   href="/register"

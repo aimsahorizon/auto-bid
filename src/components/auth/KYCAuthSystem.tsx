@@ -592,7 +592,7 @@ const KYCAuthSystem = ({ initialView = 'login' }: KYCAuthSystemProps) => {
         </button>
       </div>
 
-      <div className="mt-4 sm:mt-6 text-center">
+      {/* <div className="mt-4 sm:mt-6 text-center">
         <p className="text-sm text-gray-600">
           Already have an account?{' '}
           <button
@@ -602,7 +602,7 @@ const KYCAuthSystem = ({ initialView = 'login' }: KYCAuthSystemProps) => {
             Sign in
           </button>
         </p>
-      </div>
+      </div> */}
     </div>
   );
 

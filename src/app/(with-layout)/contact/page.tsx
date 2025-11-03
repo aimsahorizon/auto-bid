@@ -41,7 +41,7 @@ export default function ContactPage() {
       icon: Phone,
       title: "Phone Support",
       description: "Speak with our team",
-      contact: "1-800-AUCTION",
+      contact: "1-800-AUTOBID",
       action: "Call Now",
       available: "Mon-Fri 9AM-6PM EST"
     },
