@@ -96,7 +96,7 @@ const GuestNavbar = () => {
             >
               <Gavel className="h-7 w-7 sm:h-8 sm:w-8 text-black group-hover:rotate-12 transition-transform duration-300" />
               <span className="text-lg sm:text-xl font-bold text-black">
-                AuctionHub
+                AutoBID
               </span>
             </Link>
 

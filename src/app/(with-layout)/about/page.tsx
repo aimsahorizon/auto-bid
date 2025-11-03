@@ -115,7 +115,7 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-black mb-6">
-              About AuctionHub
+              About AutoBID
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
               We&apos;re revolutionizing the way people buy and sell cars through transparent, 
@@ -286,7 +286,7 @@ export default function AboutPage() {
               Meet Our Team
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The passionate people behind AuctionHub who are dedicated to revolutionizing car auctions.
+              The passionate people behind AutoBID who are dedicated to revolutionizing car auctions.
             </p>
           </div>
           
@@ -319,7 +319,7 @@ export default function AboutPage() {
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
             We&apos;d love to hear from you. Get in touch with our team to learn more about 
-            AuctionHub and how we can help you.
+            AutoBID and how we can help you.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

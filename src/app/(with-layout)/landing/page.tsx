@@ -98,7 +98,7 @@ export default function LandingPage() {
       role: "Collector",
       image: "/leaderboard/avatar-placeholder.jpg",
       rating: 5,
-      text: "Found my dream 1969 Camaro SS through AuctionHub. The process was transparent and secure."
+      text: "Found my dream 1969 Camaro SS through AutoBID. The process was transparent and secure."
     },
     {
       name: "Sarah Williams",
@@ -319,7 +319,7 @@ export default function LandingPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
-              Why Choose AuctionHub?
+              Why Choose AutoBID?
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
               Experience the future of car auctions with our cutting-edge platform
@@ -352,7 +352,7 @@ export default function LandingPage() {
               What Our Users Say
             </h2>
             <p className="text-lg text-gray-600">
-              Join thousands of satisfied buyers and sellers who trust AuctionHub.
+              Join thousands of satisfied buyers and sellers who trust AutoBID.
             </p>
           </div>
           
@@ -398,13 +398,13 @@ export default function LandingPage() {
             Ready to Start Bidding?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join AuctionHub today and discover your next dream car. 
+            Join AutoBID today and discover your next dream car. 
             It only takes a minute to get started.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
-              href="/signup"
+              href="/register"
               className="inline-flex items-center px-8 py-3 bg-white text-black font-medium rounded-lg hover:bg-gray-100 transition-all duration-300"
             >
               Get Started Free
