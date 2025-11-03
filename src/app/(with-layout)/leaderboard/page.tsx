@@ -210,7 +210,7 @@ export default function LeaderboardPage() {
               className="inline-flex items-center px-6 py-2 sm:px-8 sm:py-3 bg-black text-white font-medium rounded-lg hover:bg-gray-800 transition-colors duration-300"
             >
               <TrendingUp className="mr-2 h-4 w-4" />
-              Join AuctionHub
+              Join AutoBID
             </a>
             <a
               href="/about"

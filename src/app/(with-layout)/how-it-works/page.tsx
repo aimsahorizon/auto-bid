@@ -131,7 +131,7 @@ export default function HowItWorksPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center">
             <h1 className="text-4xl lg:text-6xl font-bold text-black mb-6">
-              How AuctionHub Works
+              How AutoBID Works
             </h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto leading-relaxed mb-8">
               Whether you&apos;re buying your dream car or selling to collectors worldwide, 
@@ -228,7 +228,7 @@ export default function HowItWorksPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
-              Why Choose AuctionHub?
+              Why Choose AutoBID?
             </h2>
             <p className="text-lg text-gray-600">
               Advanced features that make buying and selling cars easier than ever.
@@ -283,7 +283,7 @@ export default function HowItWorksPage() {
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-gray-600">
-              Get answers to common questions about using AuctionHub.
+              Get answers to common questions about using AutoBID.
             </p>
           </div>
           
@@ -312,7 +312,7 @@ export default function HowItWorksPage() {
             Ready to Get Started?
           </h2>
           <p className="text-xl text-gray-300 mb-8 max-w-2xl mx-auto">
-            Join thousands of buyers and sellers who trust AuctionHub for their automotive needs.
+            Join thousands of buyers and sellers who trust AutoBID for their automotive needs.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">

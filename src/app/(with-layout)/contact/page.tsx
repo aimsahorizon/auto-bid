@@ -33,7 +33,7 @@ export default function ContactPage() {
       icon: Mail,
       title: "Email Support",
       description: "Get help via email",
-      contact: "support@auctionhub.com",
+      contact: "support@autobid.com",
       action: "Send Email",
       available: "24/7"
     },
@@ -61,21 +61,21 @@ export default function ContactPage() {
       address: "123 5th Avenue, Suite 100",
       zipCode: "New York, NY 10001",
       phone: "+1 (212) 555-0123",
-      email: "ny@auctionhub.com"
+      email: "ny@autobid.com"
     },
     {
       city: "Los Angeles",
       address: "456 Sunset Blvd, Floor 12",
       zipCode: "Los Angeles, CA 90028",
       phone: "+1 (323) 555-0456",
-      email: "la@auctionhub.com"
+      email: "la@autobid.com"
     },
     {
       city: "Miami",
       address: "789 Ocean Drive, Suite 200",
       zipCode: "Miami, FL 33139",
       phone: "+1 (305) 555-0789",
-      email: "miami@auctionhub.com"
+      email: "miami@autobid.com"
     }
   ];
 
@@ -140,7 +140,7 @@ export default function ContactPage() {
               Contact Us
             </h1>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Have questions about AuctionHub? We&apos;re here to help. 
+              Have questions about AutoBID? We&apos;re here to help. 
               Get in touch with our expert team for support, partnerships, or general inquiries.
             </p>
           </div>
@@ -386,7 +386,7 @@ export default function ContactPage() {
               Frequently Asked Questions
             </h2>
             <p className="text-lg text-gray-600">
-              Quick answers to common questions about AuctionHub.
+              Quick answers to common questions about AutoBID.
             </p>
           </div>
           
