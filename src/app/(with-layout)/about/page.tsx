@@ -56,10 +56,10 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Marian Soriano",
+      name: "Mariane Soriano",
       role: "CEO & Co-Founder",
       icon: Briefcase,
-      bio: "Computer Science student leading the vision and project management, focused on revolutionizing the automotive marketplace through innovation."
+      bio: "Computer Science student leading the vision and project management, aiming on revolutionizing the automotive marketplace through innovation."
     },
     {
       name: "Emman Idulsa",
@@ -143,7 +143,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-700">Democratize access to premium vehicles worldwide</p>
+                  <p className="text-gray-700">Democratize access to premium vehicles in Zamboanga</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
@@ -151,7 +151,7 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-700">Build a global community of automotive enthusiasts</p>
+                  <p className="text-gray-700">Build a local community of automotive enthusiasts</p>
                 </div>
               </div>
             </div>
