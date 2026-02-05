@@ -31,10 +31,6 @@ export default function ContactPage() {
       answer: "We accept all major credit cards, bank transfers, and certified checks for auction purchases."
     },
     {
-      question: "Is there a buyer's premium?",
-      answer: "Yes, we charge a 5% buyer's premium on the final hammer price for all successful auctions."
-    },
-    {
       question: "How do I list my car for auction?",
       answer: "Contact our seller support team to schedule a vehicle inspection and listing consultation."
     }
@@ -225,30 +221,6 @@ export default function ContactPage() {
       {/* FAQ Section */}
       <section className="py-16 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
-              Frequently Asked Questions
-            </h2>
-            <p className="text-lg text-gray-600">
-              Quick answers to common questions about AutoBID.
-            </p>
-          </div>
-          
-          <div className="max-w-3xl mx-auto">
-            <div className="space-y-4">
-              {faqs.map((faq, index) => (
-                <details key={index} className="group bg-white rounded-xl shadow-sm border overflow-hidden">
-                  <summary className="flex items-center justify-between p-6 cursor-pointer hover:bg-gray-50 transition-colors duration-200">
-                    <h3 className="text-lg font-medium text-black pr-4">{faq.question}</h3>
-                    <HelpCircle className="h-5 w-5 text-gray-400 group-open:rotate-180 transition-transform duration-200 flex-shrink-0" />
-                  </summary>
-                  <div className="px-6 pb-6">
-                    <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
-                  </div>
-                </details>
-              ))}
-            </div>
-          </div>
 
           <div className="text-center mt-12">
             <p className="text-gray-600 mb-6">
