@@ -222,7 +222,7 @@ export const mockUsers: User[] = [
   },
   {
     id: 'mod-002',
-    email: 'support@autobid.com',
+    email: 'aimsahorizon@gmail.com',
     name: 'Maria Support',
     role: 'moderator',
     status: 'active',

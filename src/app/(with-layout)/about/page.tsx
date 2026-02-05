@@ -53,29 +53,23 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Sarah Chen",
+      name: "Marian Soriano",
       role: "CEO & Co-Founder",
       image: "/leaderboard/avatar-placeholder.jpg",
       bio: "Former automotive executive with 15+ years in the industry. Passionate about bringing transparency to car auctions."
     },
     {
-      name: "Michael Rodriguez",
+      name: "Emman Idulsa",
       role: "CTO & Co-Founder",
       image: "/leaderboard/avatar-placeholder.jpg",
       bio: "Technology veteran who previously built auction platforms for major tech companies. Expert in real-time systems."
     },
     {
-      name: "Emily Johnson",
-      role: "Head of Operations",
+      name: "Ionyjal Amin",
+      role: "Designer & Co-Founder",
       image: "/leaderboard/avatar-placeholder.jpg",
       bio: "Operations specialist with a background in logistics and marketplace management. Ensures smooth auction processes."
     },
-    {
-      name: "David Park",
-      role: "Head of Trust & Safety",
-      image: "/leaderboard/avatar-placeholder.jpg",
-      bio: "Former law enforcement with expertise in fraud prevention and digital security. Keeps our platform safe."
-    }
   ];
 
   const values = [
@@ -96,8 +90,8 @@ export default function AboutPage() {
     },
     {
       icon: Globe,
-      title: "Global Community",
-      description: "We connect car lovers worldwide, breaking down geographical barriers in the automotive market."
+      title: "Local Community",
+      description: "We connect car lovers in Zamboanga City, breaking down geographical barriers in the automotive market."
     }
   ];
 
@@ -178,28 +172,6 @@ export default function AboutPage() {
                 <div className="text-sm text-gray-600">Years of Excellence</div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Our Impact in Numbers
-            </h2>
-            <p className="text-xl text-gray-300">
-              See how we&apos;re transforming the automotive auction industry.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-gray-300">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -329,13 +301,6 @@ export default function AboutPage() {
             >
               <Building className="mr-2 h-5 w-5" />
               Contact Us
-            </a>
-            <a
-              href="/careers"
-              className="inline-flex items-center px-8 py-3 border border-white text-white font-medium rounded-lg hover:bg-white hover:text-black transition-all duration-300"
-            >
-              <Users className="mr-2 h-5 w-5" />
-              Join Our Team
             </a>
           </div>
         </div>
