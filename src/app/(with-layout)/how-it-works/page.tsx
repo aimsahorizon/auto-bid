@@ -90,21 +90,12 @@ export default function HowItWorksPage() {
       title: "Vehicle Inspections",
       description: "Professional inspections available for high-value vehicles."
     },
-    {
-      icon: Users,
-      title: "Dispute Resolution",
-      description: "Dedicated support team to resolve any transaction issues."
-    }
   ];
 
   const faqItems = [
     {
       question: "What happens if I win an auction?",
       answer: "You'll receive an immediate notification and have 24 hours to complete payment. Our team will guide you through the entire process."
-    },
-    {
-      question: "Are there any fees for buyers?",
-      answer: "Yes, we charge a 5% buyer's premium on the final hammer price. This covers payment processing and buyer protection services."
     },
     {
       question: "How long do auctions typically last?",
@@ -199,7 +190,7 @@ export default function HowItWorksPage() {
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {safetyFeatures.map((feature, index) => {
               const Icon = feature.icon;
               return (
@@ -213,13 +204,7 @@ export default function HowItWorksPage() {
               );
             })}
           </div>
-          
-          <div className="text-center mt-12">
-            <div className="inline-flex items-center px-4 py-2 bg-green-100 text-green-800 rounded-full text-sm font-medium">
-              <Shield className="h-4 w-4 mr-2" />
-              $1M+ Protected in Transactions
-            </div>
-          </div>
+
         </div>
       </section>
 
@@ -243,27 +228,9 @@ export default function HowItWorksPage() {
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-lg transition-shadow duration-300">
-              <Camera className="h-10 w-10 text-green-500 mb-4" />
-              <h3 className="text-xl font-semibold text-black mb-3">HD Photo Gallery</h3>
-              <p className="text-gray-600">Detailed high-resolution photos showing every angle and detail of each vehicle.</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-lg transition-shadow duration-300">
               <FileText className="h-10 w-10 text-green-500 mb-4" />
               <h3 className="text-xl font-semibold text-black mb-3">Vehicle Reports</h3>
               <p className="text-gray-600">Comprehensive history reports including accident records, service history, and ownership details.</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-lg transition-shadow duration-300">
-              <Users className="h-10 w-10 text-purple-500 mb-4" />
-              <h3 className="text-xl font-semibold text-black mb-3">Expert Support</h3>
-              <p className="text-gray-600">Dedicated support team available 24/7 to assist with any questions or issues.</p>
-            </div>
-            
-            <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-lg transition-shadow duration-300">
-              <Truck className="h-10 w-10 text-red-500 mb-4" />
-              <h3 className="text-xl font-semibold text-black mb-3">Shipping Network</h3>
-              <p className="text-gray-600">Nationwide network of trusted shipping partners for safe and insured vehicle transport.</p>
             </div>
             
             <div className="bg-white p-6 rounded-xl shadow-sm border hover:shadow-lg transition-shadow duration-300">
@@ -323,13 +290,6 @@ export default function HowItWorksPage() {
               <Search className="mr-2 h-5 w-5" />
               Browse Auctions
             </a>
-            <a
-              href="/sell"
-              className="inline-flex items-center px-8 py-3 border border-white text-white font-medium rounded-lg hover:bg-white hover:text-black transition-all duration-300"
-            >
-              <Gavel className="mr-2 h-5 w-5" />
-              Sell Your Car
-            </a>
           </div>
           
           <div className="flex items-center justify-center space-x-8 text-sm text-gray-400">
@@ -343,7 +303,7 @@ export default function HowItWorksPage() {
             </div>
             <div className="flex items-center">
               <Users className="h-4 w-4 mr-2 text-purple-400" />
-              <span>Expert support</span>
+              <span>Tech support</span>
             </div>
           </div>
         </div>

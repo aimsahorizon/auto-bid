@@ -56,7 +56,6 @@ const Navbar = () => {
 
   const navLinks = [
     { href: "/auctions", label: "Auctions" },
-    { href: "/leaderboard", label: "Leaderboard" },
     { href: "/how-it-works", label: "How It Works" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
@@ -129,9 +128,6 @@ const Navbar = () => {
 
             {/* Desktop Actions */}
             <div className="hidden lg:flex items-center space-x-2 xl:space-x-4">
-              <button className="p-2 text-gray-600 hover:text-black hover:bg-gray-100 rounded-lg transition-colors duration-200">
-                <Bell className="h-5 w-5" />
-              </button>
               {/* <button onClick={toggle} className="p-2 rounded-lg hover:bg-gray-100 transition-colors">
                 {isDark ? <Sun className="h-5 w-5 text-yellow-400" /> : <Moon className="h-5 w-5 text-gray-600" />}
               </button> */}

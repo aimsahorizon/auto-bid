@@ -581,37 +581,6 @@ export default function AuctionsPage() {
               ))}
             </div>
           )}
-
-          {/* Load More */}
-          <div className="text-center mt-12">
-            <button className="px-8 py-3 border border-gray-300 text-gray-700 rounded-lg hover:bg-gray-50 transition-colors duration-300">
-              Load More Auctions
-            </button>
-          </div>
-        </div>
-      </section>
-
-      {/* Quick Stats */}
-      <section className="py-12 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-            <div>
-              <div className="text-3xl font-bold mb-2">{filteredAuctions.length}</div>
-              <div className="text-gray-300">Active Auctions</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">$2.4M</div>
-              <div className="text-gray-300">Total Value</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">156</div>
-              <div className="text-gray-300">Total Bids</div>
-            </div>
-            <div>
-              <div className="text-3xl font-bold mb-2">892</div>
-              <div className="text-gray-300">Watching</div>
-            </div>
-          </div>
         </div>
       </section>
     </div>

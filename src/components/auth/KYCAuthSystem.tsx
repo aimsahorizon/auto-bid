@@ -494,25 +494,6 @@ const KYCAuthSystem = ({ initialView = 'login' }: KYCAuthSystemProps) => {
 
         <div>
           <label className="block text-sm font-medium text-gray-700 mb-1">
-            <Globe className="h-4 w-4 inline mr-1" />
-            Country
-          </label>
-          <select
-            value={registerForm.country}
-            onChange={(e) => setRegisterForm({...registerForm, country: e.target.value})}
-            className="w-full px-3 py-2 text-sm sm:text-base border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-green-500 transition-colors"
-          >
-            <option value="">Select Country</option>
-            <option value="US">United States</option>
-            <option value="CA">Canada</option>
-            <option value="UK">United Kingdom</option>
-            <option value="AU">Australia</option>
-            <option value="DE">Germany</option>
-          </select>
-        </div>
-
-        <div>
-          <label className="block text-sm font-medium text-gray-700 mb-1">
             Password
           </label>
           <div className="relative">

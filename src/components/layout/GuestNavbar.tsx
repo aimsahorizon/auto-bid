@@ -59,7 +59,6 @@ const GuestNavbar = () => {
 
   const guestNavLinks = [
     { href: "/auctions", label: "Browse Auctions" },
-    { href: "/leaderboard", label: "Leaderboard" },
     { href: "/how-it-works", label: "How It Works" },
     { href: "/about", label: "About Us" },
     { href: "/contact", label: "Contact" },

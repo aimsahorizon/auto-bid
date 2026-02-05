@@ -10,12 +10,15 @@ import {
   Lightbulb,
   CheckCircle,
   Building,
+  Code,
+  Palette,
+  Briefcase
 } from "lucide-react";
 
 export default function AboutPage() {
   const milestones = [
     {
-      year: "2018",
+      year: "2025",
       title: "Company Founded",
       description: "Started with a vision to revolutionize car auctions"
     },
@@ -53,29 +56,23 @@ export default function AboutPage() {
 
   const team = [
     {
-      name: "Sarah Chen",
+      name: "Mariane Soriano",
       role: "CEO & Co-Founder",
-      image: "/leaderboard/avatar-placeholder.jpg",
-      bio: "Former automotive executive with 15+ years in the industry. Passionate about bringing transparency to car auctions."
+      icon: Briefcase,
+      bio: "Computer Science student leading the vision and project management, aiming on revolutionizing the automotive marketplace through innovation."
     },
     {
-      name: "Michael Rodriguez",
+      name: "Emman Idulsa",
       role: "CTO & Co-Founder",
-      image: "/leaderboard/avatar-placeholder.jpg",
-      bio: "Technology veteran who previously built auction platforms for major tech companies. Expert in real-time systems."
+      icon: Code,
+      bio: "Computer Science student and lead developer, specializing in building robust real-time systems and secure database architectures."
     },
     {
-      name: "Emily Johnson",
-      role: "Head of Operations",
-      image: "/leaderboard/avatar-placeholder.jpg",
-      bio: "Operations specialist with a background in logistics and marketplace management. Ensures smooth auction processes."
+      name: "Ionyjal Amin",
+      role: "Designer & Co-Founder",
+      icon: Palette,
+      bio: "Computer Science student and lead designer, dedicated to creating intuitive user interfaces and a seamless digital experience."
     },
-    {
-      name: "David Park",
-      role: "Head of Trust & Safety",
-      image: "/leaderboard/avatar-placeholder.jpg",
-      bio: "Former law enforcement with expertise in fraud prevention and digital security. Keeps our platform safe."
-    }
   ];
 
   const values = [
@@ -96,8 +93,8 @@ export default function AboutPage() {
     },
     {
       icon: Globe,
-      title: "Global Community",
-      description: "We connect car lovers worldwide, breaking down geographical barriers in the automotive market."
+      title: "Local Community",
+      description: "We connect car lovers in Zamboanga City, breaking down geographical barriers in the automotive market."
     }
   ];
 
@@ -146,7 +143,7 @@ export default function AboutPage() {
               <div className="space-y-4">
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-700">Democratize access to premium vehicles worldwide</p>
+                  <p className="text-gray-700">Democratize access to premium vehicles in Zamboanga</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
@@ -154,17 +151,12 @@ export default function AboutPage() {
                 </div>
                 <div className="flex items-start space-x-3">
                   <CheckCircle className="h-6 w-6 text-green-500 mt-0.5 flex-shrink-0" />
-                  <p className="text-gray-700">Build a global community of automotive enthusiasts</p>
+                  <p className="text-gray-700">Build a local community of automotive enthusiasts</p>
                 </div>
               </div>
             </div>
             <div className="relative">
               <div className="aspect-[4/3] bg-gray-200 rounded-2xl overflow-hidden">
-                {/* <img 
-                  src="/api/placeholder/600/450" 
-                  alt="Team at work"
-                  className="w-full h-full object-cover"
-                /> */}
                 <Image
                   src="/about/handshake.jpg" 
                   width={1000}
@@ -178,28 +170,6 @@ export default function AboutPage() {
                 <div className="text-sm text-gray-600">Years of Excellence</div>
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Stats Section */}
-      <section className="py-16 bg-black text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-              Our Impact in Numbers
-            </h2>
-            <p className="text-xl text-gray-300">
-              See how we&apos;re transforming the automotive auction industry.
-            </p>
-          </div>
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8">
-            {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="text-4xl lg:text-5xl font-bold mb-2">{stat.number}</div>
-                <div className="text-gray-300">{stat.label}</div>
-              </div>
-            ))}
           </div>
         </div>
       </section>
@@ -237,76 +207,37 @@ export default function AboutPage() {
         </div>
       </section>
 
-      {/* Timeline Section */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
-              Our Journey
-            </h2>
-            <p className="text-lg text-gray-600">
-              From startup to industry leader – here&apos;s how we&apos;ve grown.
-            </p>
-          </div>
-          
-          <div className="relative">
-            {/* Vertical center line only on larger screens */}
-            <div className="hidden lg:block absolute left-1/2 transform -translate-x-0.5 h-full w-0.5 bg-gray-300" />
-            <div className="space-y-8">
-              {milestones.map((milestone, index) => (
-                <div
-                  key={index}
-                  className={`flex flex-col lg:items-center ${index % 2 === 0 ? 'lg:flex-row' : 'lg:flex-row-reverse'}`}
-                >
-                  <div className={`w-full lg:w-1/2 ${index % 2 === 0 ? 'lg:pr-8 lg:text-right' : 'lg:pl-8 lg:text-left'}`}>
-                    <div className="bg-white p-6 rounded-xl shadow-sm border">
-                      <div className="text-sm font-medium text-gray-500 mb-1">{milestone.year}</div>
-                      <h3 className="text-xl font-semibold text-black mb-2">{milestone.title}</h3>
-                      <p className="text-gray-600">{milestone.description}</p>
-                    </div>
-                  </div>
-
-                  <div className="flex items-center justify-center my-4 lg:my-0">
-                    <div className="w-4 h-4 bg-black rounded-full border-4 border-white shadow-md z-10 flex-shrink-0" />
-                  </div>
-
-                  <div className="w-full lg:w-1/2" />
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Team Section */}
-      <section className="py-16">
+      <section className="py-24 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-12">
+          <div className="text-center mb-16">
+            <div className="inline-flex items-center px-3 py-1 bg-gray-100 text-gray-800 rounded-full text-sm font-medium mb-4">
+              <Users className="h-4 w-4 mr-2" />
+              The Team
+            </div>
             <h2 className="text-3xl lg:text-4xl font-bold text-black mb-4">
               Meet Our Team
             </h2>
             <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-              The passionate people behind AutoBID who are dedicated to revolutionizing car auctions.
+              We are Computer Science students dedicated to building a modern, transparent, and secure auction platform.
             </p>
           </div>
           
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
-            {team.map((member, index) => (
-              <div key={index} className="text-center group">
-                <div className="relative mb-6 w-36 h-36 sm:w-44 sm:h-44 mx-auto">
-                  <Image
-                    src={member.image}
-                    alt={member.name}
-                    width={176}
-                    height={176}
-                    className="w-full h-full bg-gray-300 rounded-full object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {team.map((member, index) => {
+              const Icon = member.icon;
+              return (
+                <div key={index} className="relative group p-8 bg-gray-50 rounded-2xl border border-gray-100 hover:border-black hover:bg-white transition-all duration-300 hover:shadow-xl">
+                  <div className="absolute top-0 left-0 w-full h-1 bg-black rounded-t-2xl opacity-0 group-hover:opacity-100 transition-opacity" />
+                  <div className="w-14 h-14 bg-black text-white rounded-xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-300">
+                    <Icon className="h-7 w-7" />
+                  </div>
+                  <h3 className="text-xl font-bold text-black mb-1">{member.name}</h3>
+                  <div className="text-sm font-semibold text-gray-500 mb-4 tracking-wide uppercase">{member.role}</div>
+                  <p className="text-gray-600 leading-relaxed text-sm">{member.bio}</p>
                 </div>
-                <h3 className="text-lg sm:text-xl font-semibold text-black mb-1">{member.name}</h3>
-                <div className="text-sm font-medium text-gray-500 mb-3">{member.role}</div>
-                <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </section>
@@ -329,13 +260,6 @@ export default function AboutPage() {
             >
               <Building className="mr-2 h-5 w-5" />
               Contact Us
-            </a>
-            <a
-              href="/careers"
-              className="inline-flex items-center px-8 py-3 border border-white text-white font-medium rounded-lg hover:bg-white hover:text-black transition-all duration-300"
-            >
-              <Users className="mr-2 h-5 w-5" />
-              Join Our Team
             </a>
           </div>
         </div>
